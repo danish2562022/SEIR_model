@@ -4,3 +4,5 @@ Repo copied from: https://github.com/philipgerlee/Predicting-regional-COVID-19-h
 
 
 ![My Image](./Image.jpeg)
+
+![My Image 2](./image_2.jpg)
