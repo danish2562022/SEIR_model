@@ -1,0 +1,47 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    python_version: 3.12.2
+    cli_version: 0.17.4
+    framework: torch
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    start_time: 1748495080
+    t:
+      1:
+      - 1
+      - 41
+      - 55
+      - 105
+      2:
+      - 1
+      - 41
+      - 55
+      - 105
+      3:
+      - 2
+      - 23
+      - 37
+      4: 3.12.2
+      5: 0.17.4
+      8:
+      - 1
+      - 5
+      13: linux-x86_64
+ah0:
+  desc: null
+  value: 0.06525108022075565
+ah1:
+  desc: null
+  value: 2.172746483201589
+bh0:
+  desc: null
+  value: 11.662946791477676
+bh1:
+  desc: null
+  value: 7.541746987375582
+c:
+  desc: null
+  value: 0.4963681703842964

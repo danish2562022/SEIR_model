@@ -1,0 +1,241 @@
+2025-05-28 20:56:09,348 INFO    StreamThr :1033940 [internal.py:wandb_internal():85] W&B internal server running at pid: 1033940, started at: 2025-05-28 20:56:09.348078
+2025-05-28 20:56:09,349 DEBUG   HandlerThread:1033940 [handler.py:handle_request():158] handle_request: status
+2025-05-28 20:56:09,352 INFO    WriterThread:1033940 [datastore.py:open_for_write():87] open: /12tb_dsk3/SEIR_model/src/wandb/run-20250528_205609-pfiqzwts/run-pfiqzwts.wandb
+2025-05-28 20:56:09,352 DEBUG   SenderThread:1033940 [sender.py:send():379] send: header
+2025-05-28 20:56:09,355 DEBUG   SenderThread:1033940 [sender.py:send():379] send: run
+2025-05-28 20:56:09,763 INFO    SenderThread:1033940 [dir_watcher.py:__init__():211] watching files in: /12tb_dsk3/SEIR_model/src/wandb/run-20250528_205609-pfiqzwts/files
+2025-05-28 20:56:09,763 INFO    SenderThread:1033940 [sender.py:_start_run_threads():1188] run started: pfiqzwts with start time 1748465769.347225
+2025-05-28 20:56:09,767 DEBUG   HandlerThread:1033940 [handler.py:handle_request():158] handle_request: check_version
+2025-05-28 20:56:09,767 DEBUG   SenderThread:1033940 [sender.py:send_request():406] send_request: check_version
+2025-05-28 20:56:09,845 DEBUG   HandlerThread:1033940 [handler.py:handle_request():158] handle_request: run_start
+2025-05-28 20:56:09,852 DEBUG   HandlerThread:1033940 [system_info.py:__init__():26] System info init
+2025-05-28 20:56:09,852 DEBUG   HandlerThread:1033940 [system_info.py:__init__():41] System info init done
+2025-05-28 20:56:09,852 INFO    HandlerThread:1033940 [system_monitor.py:start():194] Starting system monitor
+2025-05-28 20:56:09,852 INFO    SystemMonitor:1033940 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2025-05-28 20:56:09,852 INFO    HandlerThread:1033940 [system_monitor.py:probe():214] Collecting system info
+2025-05-28 20:56:09,853 INFO    SystemMonitor:1033940 [interfaces.py:start():188] Started cpu monitoring
+2025-05-28 20:56:09,853 INFO    SystemMonitor:1033940 [interfaces.py:start():188] Started disk monitoring
+2025-05-28 20:56:09,853 INFO    SystemMonitor:1033940 [interfaces.py:start():188] Started gpu monitoring
+2025-05-28 20:56:09,854 INFO    SystemMonitor:1033940 [interfaces.py:start():188] Started memory monitoring
+2025-05-28 20:56:09,854 INFO    SystemMonitor:1033940 [interfaces.py:start():188] Started network monitoring
+2025-05-28 20:56:09,862 DEBUG   HandlerThread:1033940 [system_info.py:probe():152] Probing system
+2025-05-28 20:56:09,864 DEBUG   HandlerThread:1033940 [system_info.py:_probe_git():137] Probing git
+2025-05-28 20:56:09,868 DEBUG   HandlerThread:1033940 [system_info.py:_probe_git():145] Probing git done
+2025-05-28 20:56:09,868 DEBUG   HandlerThread:1033940 [system_info.py:probe():200] Probing system done
+2025-05-28 20:56:09,868 DEBUG   HandlerThread:1033940 [system_monitor.py:probe():223] {'os': 'Linux-6.8.0-55-generic-x86_64-with-glibc2.39', 'python': '3.12.2', 'heartbeatAt': '2025-05-28T20:56:09.862261', 'startedAt': '2025-05-28T20:56:09.344308', 'docker': None, 'cuda': '9.0.176', 'args': (), 'state': 'running', 'program': '12tb_dsk3/SEIR_model/src/SEIR_kalmar_bleking.ipynb', 'codePathLocal': None, 'root': '/12tb_dsk3/SEIR_model', 'git': {'remote': 'https://github.com/danish2562022/SEIR_model.git', 'commit': '815b8b500e481e3833db0d86f1dc04c90b7aa4bc'}, 'email': 'danish2562022@gmail.com', 'host': 'polster', 'username': 'anwer', 'executable': '/root/miniconda3/bin/python', 'cpu_count': 16, 'cpu_count_logical': 32, 'cpu_freq': {'current': 1981.0551875, 'min': 545.0, 'max': 5371.0}, 'cpu_freq_per_core': [{'current': 4247.488, 'min': 545.0, 'max': 5371.0}, {'current': 545.0, 'min': 545.0, 'max': 5371.0}, {'current': 545.0, 'min': 545.0, 'max': 5371.0}, {'current': 545.0, 'min': 545.0, 'max': 5371.0}, {'current': 545.0, 'min': 545.0, 'max': 5371.0}, {'current': 545.0, 'min': 545.0, 'max': 5371.0}, {'current': 545.0, 'min': 545.0, 'max': 5371.0}, {'current': 2125.557, 'min': 545.0, 'max': 5371.0}, {'current': 545.0, 'min': 545.0, 'max': 5371.0}, {'current': 545.0, 'min': 545.0, 'max': 5371.0}, {'current': 545.0, 'min': 545.0, 'max': 5371.0}, {'current': 545.0, 'min': 545.0, 'max': 5371.0}, {'current': 5062.786, 'min': 545.0, 'max': 5371.0}, {'current': 2050.139, 'min': 545.0, 'max': 5371.0}, {'current': 5053.963, 'min': 545.0, 'max': 5371.0}, {'current': 4790.638, 'min': 545.0, 'max': 5371.0}, {'current': 545.0, 'min': 545.0, 'max': 5371.0}, {'current': 545.0, 'min': 545.0, 'max': 5371.0}, {'current': 1912.536, 'min': 545.0, 'max': 5371.0}, {'current': 545.0, 'min': 545.0, 'max': 5371.0}, {'current': 545.0, 'min': 545.0, 'max': 5371.0}, {'current': 545.0, 'min': 545.0, 'max': 5371.0}, {'current': 545.0, 'min': 545.0, 'max': 5371.0}, {'current': 545.0, 'min': 545.0, 'max': 5371.0}, {'current': 4791.011, 'min': 545.0, 'max': 5371.0}, {'current': 2847.422, 'min': 545.0, 'max': 5371.0}, {'current': 3541.017, 'min': 545.0, 'max': 5371.0}, {'current': 4804.738, 'min': 545.0, 'max': 5371.0}, {'current': 2370.998, 'min': 545.0, 'max': 5371.0}, {'current': 545.0, 'min': 545.0, 'max': 5371.0}, {'current': 545.0, 'min': 545.0, 'max': 5371.0}, {'current': 545.0, 'min': 545.0, 'max': 5371.0}], 'disk': {'/': {'total': 3752.004409790039, 'used': 2783.798439025879}}, 'gpu': 'NVIDIA RTX 6000 Ada Generation', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA RTX 6000 Ada Generation', 'memory_total': 51527024640}], 'memory': {'total': 251.08872985839844}}
+2025-05-28 20:56:09,868 INFO    HandlerThread:1033940 [system_monitor.py:probe():224] Finished collecting system info
+2025-05-28 20:56:09,868 INFO    HandlerThread:1033940 [system_monitor.py:probe():227] Publishing system info
+2025-05-28 20:56:09,868 DEBUG   HandlerThread:1033940 [system_info.py:_save_conda():209] Saving list of conda packages installed into the current environment
+2025-05-28 20:56:10,383 DEBUG   HandlerThread:1033940 [system_info.py:_save_conda():224] Saving conda packages done
+2025-05-28 20:56:10,383 INFO    HandlerThread:1033940 [system_monitor.py:probe():229] Finished publishing system info
+2025-05-28 20:56:10,386 DEBUG   SenderThread:1033940 [sender.py:send():379] send: files
+2025-05-28 20:56:10,386 INFO    SenderThread:1033940 [sender.py:_save_file():1454] saving file wandb-metadata.json with policy now
+2025-05-28 20:56:10,563 DEBUG   HandlerThread:1033940 [handler.py:handle_request():158] handle_request: python_packages
+2025-05-28 20:56:10,563 DEBUG   SenderThread:1033940 [sender.py:send_request():406] send_request: python_packages
+2025-05-28 20:56:10,564 DEBUG   SenderThread:1033940 [sender.py:send():379] send: telemetry
+2025-05-28 20:56:10,565 DEBUG   HandlerThread:1033940 [handler.py:handle_request():158] handle_request: stop_status
+2025-05-28 20:56:10,565 DEBUG   SenderThread:1033940 [sender.py:send_request():406] send_request: stop_status
+2025-05-28 20:56:10,605 DEBUG   HandlerThread:1033940 [handler.py:handle_request():158] handle_request: internal_messages
+2025-05-28 20:56:10,669 DEBUG   HandlerThread:1033940 [handler.py:handle_request():158] handle_request: partial_history
+2025-05-28 20:56:10,710 DEBUG   HandlerThread:1033940 [handler.py:handle_request():158] handle_request: server_info
+2025-05-28 20:56:10,765 INFO    Thread-12 :1033940 [dir_watcher.py:_on_file_created():271] file/dir created: /12tb_dsk3/SEIR_model/src/wandb/run-20250528_205609-pfiqzwts/files/conda-environment.yaml
+2025-05-28 20:56:10,765 INFO    Thread-12 :1033940 [dir_watcher.py:_on_file_created():271] file/dir created: /12tb_dsk3/SEIR_model/src/wandb/run-20250528_205609-pfiqzwts/files/requirements.txt
+2025-05-28 20:56:10,765 INFO    Thread-12 :1033940 [dir_watcher.py:_on_file_created():271] file/dir created: /12tb_dsk3/SEIR_model/src/wandb/run-20250528_205609-pfiqzwts/files/wandb-metadata.json
+2025-05-28 20:56:10,817 DEBUG   SenderThread:1033940 [sender.py:send():379] send: history
+2025-05-28 20:56:10,817 DEBUG   SenderThread:1033940 [sender.py:send_request():406] send_request: summary_record
+2025-05-28 20:56:10,818 INFO    SenderThread:1033940 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-05-28 20:56:10,818 DEBUG   SenderThread:1033940 [sender.py:send():379] send: telemetry
+2025-05-28 20:56:10,818 DEBUG   SenderThread:1033940 [sender.py:send_request():406] send_request: server_info
+2025-05-28 20:56:10,966 DEBUG   SenderThread:1033940 [sender.py:send():379] send: exit
+2025-05-28 20:56:10,966 INFO    SenderThread:1033940 [sender.py:send_exit():586] handling exit code: 0
+2025-05-28 20:56:10,966 INFO    SenderThread:1033940 [sender.py:send_exit():588] handling runtime: 1
+2025-05-28 20:56:10,967 INFO    SenderThread:1033940 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-05-28 20:56:10,967 INFO    SenderThread:1033940 [sender.py:send_exit():594] send defer
+2025-05-28 20:56:10,967 DEBUG   HandlerThread:1033940 [handler.py:handle_request():158] handle_request: defer
+2025-05-28 20:56:10,967 INFO    HandlerThread:1033940 [handler.py:handle_request_defer():184] handle defer: 0
+2025-05-28 20:56:10,967 DEBUG   SenderThread:1033940 [sender.py:send_request():406] send_request: defer
+2025-05-28 20:56:10,967 INFO    SenderThread:1033940 [sender.py:send_request_defer():610] handle sender defer: 0
+2025-05-28 20:56:10,967 INFO    SenderThread:1033940 [sender.py:transition_state():614] send defer: 1
+2025-05-28 20:56:10,967 DEBUG   HandlerThread:1033940 [handler.py:handle_request():158] handle_request: defer
+2025-05-28 20:56:10,967 INFO    HandlerThread:1033940 [handler.py:handle_request_defer():184] handle defer: 1
+2025-05-28 20:56:10,967 DEBUG   SenderThread:1033940 [sender.py:send_request():406] send_request: defer
+2025-05-28 20:56:10,967 INFO    SenderThread:1033940 [sender.py:send_request_defer():610] handle sender defer: 1
+2025-05-28 20:56:10,967 INFO    SenderThread:1033940 [sender.py:transition_state():614] send defer: 2
+2025-05-28 20:56:10,967 DEBUG   HandlerThread:1033940 [handler.py:handle_request():158] handle_request: defer
+2025-05-28 20:56:10,967 INFO    HandlerThread:1033940 [handler.py:handle_request_defer():184] handle defer: 2
+2025-05-28 20:56:10,967 INFO    HandlerThread:1033940 [system_monitor.py:finish():203] Stopping system monitor
+2025-05-28 20:56:10,968 DEBUG   SystemMonitor:1033940 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2025-05-28 20:56:10,968 DEBUG   SystemMonitor:1033940 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2025-05-28 20:56:10,968 DEBUG   SystemMonitor:1033940 [system_monitor.py:_start():183] Publishing last batch of metrics
+2025-05-28 20:56:10,968 INFO    HandlerThread:1033940 [interfaces.py:finish():200] Joined cpu monitor
+2025-05-28 20:56:10,969 INFO    HandlerThread:1033940 [interfaces.py:finish():200] Joined disk monitor
+2025-05-28 20:56:11,006 INFO    HandlerThread:1033940 [interfaces.py:finish():200] Joined gpu monitor
+2025-05-28 20:56:11,007 INFO    HandlerThread:1033940 [interfaces.py:finish():200] Joined memory monitor
+2025-05-28 20:56:11,007 INFO    HandlerThread:1033940 [interfaces.py:finish():200] Joined network monitor
+2025-05-28 20:56:11,007 DEBUG   SenderThread:1033940 [sender.py:send_request():406] send_request: defer
+2025-05-28 20:56:11,007 INFO    SenderThread:1033940 [sender.py:send_request_defer():610] handle sender defer: 2
+2025-05-28 20:56:11,007 INFO    SenderThread:1033940 [sender.py:transition_state():614] send defer: 3
+2025-05-28 20:56:11,007 DEBUG   SenderThread:1033940 [sender.py:send():379] send: stats
+2025-05-28 20:56:11,007 DEBUG   HandlerThread:1033940 [handler.py:handle_request():158] handle_request: defer
+2025-05-28 20:56:11,007 INFO    HandlerThread:1033940 [handler.py:handle_request_defer():184] handle defer: 3
+2025-05-28 20:56:11,007 DEBUG   SenderThread:1033940 [sender.py:send_request():406] send_request: defer
+2025-05-28 20:56:11,007 INFO    SenderThread:1033940 [sender.py:send_request_defer():610] handle sender defer: 3
+2025-05-28 20:56:11,007 INFO    SenderThread:1033940 [sender.py:transition_state():614] send defer: 4
+2025-05-28 20:56:11,007 DEBUG   HandlerThread:1033940 [handler.py:handle_request():158] handle_request: defer
+2025-05-28 20:56:11,008 INFO    HandlerThread:1033940 [handler.py:handle_request_defer():184] handle defer: 4
+2025-05-28 20:56:11,008 DEBUG   SenderThread:1033940 [sender.py:send_request():406] send_request: defer
+2025-05-28 20:56:11,008 INFO    SenderThread:1033940 [sender.py:send_request_defer():610] handle sender defer: 4
+2025-05-28 20:56:11,008 INFO    SenderThread:1033940 [sender.py:transition_state():614] send defer: 5
+2025-05-28 20:56:11,008 DEBUG   HandlerThread:1033940 [handler.py:handle_request():158] handle_request: defer
+2025-05-28 20:56:11,008 INFO    HandlerThread:1033940 [handler.py:handle_request_defer():184] handle defer: 5
+2025-05-28 20:56:11,008 DEBUG   SenderThread:1033940 [sender.py:send():379] send: summary
+2025-05-28 20:56:11,008 INFO    SenderThread:1033940 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-05-28 20:56:11,008 DEBUG   SenderThread:1033940 [sender.py:send_request():406] send_request: defer
+2025-05-28 20:56:11,008 INFO    SenderThread:1033940 [sender.py:send_request_defer():610] handle sender defer: 5
+2025-05-28 20:56:11,008 INFO    SenderThread:1033940 [sender.py:transition_state():614] send defer: 6
+2025-05-28 20:56:11,008 DEBUG   HandlerThread:1033940 [handler.py:handle_request():158] handle_request: defer
+2025-05-28 20:56:11,008 INFO    HandlerThread:1033940 [handler.py:handle_request_defer():184] handle defer: 6
+2025-05-28 20:56:11,008 DEBUG   SenderThread:1033940 [sender.py:send_request():406] send_request: defer
+2025-05-28 20:56:11,008 INFO    SenderThread:1033940 [sender.py:send_request_defer():610] handle sender defer: 6
+2025-05-28 20:56:11,010 DEBUG   HandlerThread:1033940 [handler.py:handle_request():158] handle_request: status_report
+2025-05-28 20:56:11,178 INFO    SenderThread:1033940 [sender.py:transition_state():614] send defer: 7
+2025-05-28 20:56:11,179 DEBUG   HandlerThread:1033940 [handler.py:handle_request():158] handle_request: defer
+2025-05-28 20:56:11,179 INFO    HandlerThread:1033940 [handler.py:handle_request_defer():184] handle defer: 7
+2025-05-28 20:56:11,179 DEBUG   SenderThread:1033940 [sender.py:send_request():406] send_request: defer
+2025-05-28 20:56:11,179 INFO    SenderThread:1033940 [sender.py:send_request_defer():610] handle sender defer: 7
+2025-05-28 20:56:11,179 INFO    SenderThread:1033940 [sender.py:transition_state():614] send defer: 8
+2025-05-28 20:56:11,179 DEBUG   HandlerThread:1033940 [handler.py:handle_request():158] handle_request: defer
+2025-05-28 20:56:11,179 INFO    HandlerThread:1033940 [handler.py:handle_request_defer():184] handle defer: 8
+2025-05-28 20:56:11,179 DEBUG   SenderThread:1033940 [sender.py:send_request():406] send_request: defer
+2025-05-28 20:56:11,179 INFO    SenderThread:1033940 [sender.py:send_request_defer():610] handle sender defer: 8
+2025-05-28 20:56:11,179 INFO    SenderThread:1033940 [sender.py:transition_state():614] send defer: 9
+2025-05-28 20:56:11,179 DEBUG   HandlerThread:1033940 [handler.py:handle_request():158] handle_request: defer
+2025-05-28 20:56:11,179 INFO    HandlerThread:1033940 [handler.py:handle_request_defer():184] handle defer: 9
+2025-05-28 20:56:11,179 DEBUG   SenderThread:1033940 [sender.py:send_request():406] send_request: defer
+2025-05-28 20:56:11,179 INFO    SenderThread:1033940 [sender.py:send_request_defer():610] handle sender defer: 9
+2025-05-28 20:56:11,179 INFO    SenderThread:1033940 [dir_watcher.py:finish():358] shutting down directory watcher
+2025-05-28 20:56:11,765 INFO    Thread-12 :1033940 [dir_watcher.py:_on_file_modified():288] file/dir modified: /12tb_dsk3/SEIR_model/src/wandb/run-20250528_205609-pfiqzwts/files/config.yaml
+2025-05-28 20:56:11,765 INFO    SenderThread:1033940 [dir_watcher.py:_on_file_created():271] file/dir created: /12tb_dsk3/SEIR_model/src/wandb/run-20250528_205609-pfiqzwts/files/wandb-summary.json
+2025-05-28 20:56:11,765 INFO    SenderThread:1033940 [dir_watcher.py:finish():388] scan: /12tb_dsk3/SEIR_model/src/wandb/run-20250528_205609-pfiqzwts/files
+2025-05-28 20:56:11,765 INFO    SenderThread:1033940 [dir_watcher.py:finish():402] scan save: /12tb_dsk3/SEIR_model/src/wandb/run-20250528_205609-pfiqzwts/files/conda-environment.yaml conda-environment.yaml
+2025-05-28 20:56:11,765 INFO    SenderThread:1033940 [dir_watcher.py:finish():402] scan save: /12tb_dsk3/SEIR_model/src/wandb/run-20250528_205609-pfiqzwts/files/config.yaml config.yaml
+2025-05-28 20:56:11,765 INFO    SenderThread:1033940 [dir_watcher.py:finish():402] scan save: /12tb_dsk3/SEIR_model/src/wandb/run-20250528_205609-pfiqzwts/files/wandb-metadata.json wandb-metadata.json
+2025-05-28 20:56:11,765 INFO    SenderThread:1033940 [dir_watcher.py:finish():402] scan save: /12tb_dsk3/SEIR_model/src/wandb/run-20250528_205609-pfiqzwts/files/requirements.txt requirements.txt
+2025-05-28 20:56:11,765 INFO    SenderThread:1033940 [dir_watcher.py:finish():402] scan save: /12tb_dsk3/SEIR_model/src/wandb/run-20250528_205609-pfiqzwts/files/wandb-summary.json wandb-summary.json
+2025-05-28 20:56:11,766 INFO    SenderThread:1033940 [sender.py:transition_state():614] send defer: 10
+2025-05-28 20:56:11,766 DEBUG   HandlerThread:1033940 [handler.py:handle_request():158] handle_request: defer
+2025-05-28 20:56:11,766 INFO    HandlerThread:1033940 [handler.py:handle_request_defer():184] handle defer: 10
+2025-05-28 20:56:11,767 DEBUG   SenderThread:1033940 [sender.py:send_request():406] send_request: defer
+2025-05-28 20:56:11,767 INFO    SenderThread:1033940 [sender.py:send_request_defer():610] handle sender defer: 10
+2025-05-28 20:56:11,767 INFO    SenderThread:1033940 [file_pusher.py:finish():169] shutting down file pusher
+2025-05-28 20:56:11,966 DEBUG   HandlerThread:1033940 [handler.py:handle_request():158] handle_request: poll_exit
+2025-05-28 20:56:11,967 DEBUG   SenderThread:1033940 [sender.py:send_request():406] send_request: poll_exit
+2025-05-28 20:56:12,967 DEBUG   HandlerThread:1033940 [handler.py:handle_request():158] handle_request: poll_exit
+2025-05-28 20:56:12,968 DEBUG   SenderThread:1033940 [sender.py:send_request():406] send_request: poll_exit
+2025-05-28 20:56:13,969 DEBUG   HandlerThread:1033940 [handler.py:handle_request():158] handle_request: poll_exit
+2025-05-28 20:56:13,969 DEBUG   SenderThread:1033940 [sender.py:send_request():406] send_request: poll_exit
+2025-05-28 20:56:14,970 DEBUG   HandlerThread:1033940 [handler.py:handle_request():158] handle_request: poll_exit
+2025-05-28 20:56:14,971 DEBUG   SenderThread:1033940 [sender.py:send_request():406] send_request: poll_exit
+2025-05-28 20:56:15,971 DEBUG   HandlerThread:1033940 [handler.py:handle_request():158] handle_request: poll_exit
+2025-05-28 20:56:15,972 DEBUG   SenderThread:1033940 [sender.py:send_request():406] send_request: poll_exit
+2025-05-28 20:56:16,972 DEBUG   HandlerThread:1033940 [handler.py:handle_request():158] handle_request: poll_exit
+2025-05-28 20:56:16,973 DEBUG   SenderThread:1033940 [sender.py:send_request():406] send_request: poll_exit
+2025-05-28 20:56:17,973 DEBUG   HandlerThread:1033940 [handler.py:handle_request():158] handle_request: poll_exit
+2025-05-28 20:56:17,973 DEBUG   SenderThread:1033940 [sender.py:send_request():406] send_request: poll_exit
+2025-05-28 20:56:18,973 DEBUG   HandlerThread:1033940 [handler.py:handle_request():158] handle_request: poll_exit
+2025-05-28 20:56:18,974 DEBUG   SenderThread:1033940 [sender.py:send_request():406] send_request: poll_exit
+2025-05-28 20:56:19,974 DEBUG   HandlerThread:1033940 [handler.py:handle_request():158] handle_request: poll_exit
+2025-05-28 20:56:19,975 DEBUG   SenderThread:1033940 [sender.py:send_request():406] send_request: poll_exit
+2025-05-28 20:56:19,975 DEBUG   HandlerThread:1033940 [handler.py:handle_request():158] handle_request: status_report
+2025-05-28 20:56:20,862 ERROR   wandb-upload_0:1033940 [internal_api.py:upload_file():2887] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/danish2562022/sweeps-SEIR_kalmar_bleking/pfiqzwts/wandb-metadata.json?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com%2F20250528%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20250528T205610Z&X-Goog-Expires=86399&X-Goog-Signature=0a9f593b25d9ee375e1b7ae2072f319bcfa52db2227f44eef762685db52ef3c855a356f0e74a70e1cb949f6d94f4d84b67d1c8ca2ce88b8d08dca7f1bd96dfb0b0fa02fdf7c03022093fd8aae2fd698b7012df9d5916364093c48bd80c9c9bc2a1430ce47de4cb690e9e9df7165320e2eef3cf2fbfb2597c090356251af2967e640328bf4157492a896cf449aaae6e7f550c1db07d2776e2ac96dc420366dcbe7757f61d36916c366cc90da4749a1f12f5061f3f8b5410e02ae50d9157cff9a4c0b503e868ccb08ba37fe72a4df68ffb0c181560fee74c098535fad4925751d7a7b428fae9dd7ee7bb40ec4521394821dde12397a2d748cacef4704a984edd32&X-Goog-SignedHeaders=host&X-User=danish2562022: 500 Server Error: Internal Server Error for url: https://storage.googleapis.com/wandb-production.appspot.com/danish2562022/sweeps-SEIR_kalmar_bleking/pfiqzwts/wandb-metadata.json?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com%2F20250528%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20250528T205610Z&X-Goog-Expires=86399&X-Goog-Signature=0a9f593b25d9ee375e1b7ae2072f319bcfa52db2227f44eef762685db52ef3c855a356f0e74a70e1cb949f6d94f4d84b67d1c8ca2ce88b8d08dca7f1bd96dfb0b0fa02fdf7c03022093fd8aae2fd698b7012df9d5916364093c48bd80c9c9bc2a1430ce47de4cb690e9e9df7165320e2eef3cf2fbfb2597c090356251af2967e640328bf4157492a896cf449aaae6e7f550c1db07d2776e2ac96dc420366dcbe7757f61d36916c366cc90da4749a1f12f5061f3f8b5410e02ae50d9157cff9a4c0b503e868ccb08ba37fe72a4df68ffb0c181560fee74c098535fad4925751d7a7b428fae9dd7ee7bb40ec4521394821dde12397a2d748cacef4704a984edd32&X-Goog-SignedHeaders=host&X-User=danish2562022
+2025-05-28 20:56:20,862 ERROR   wandb-upload_0:1033940 [internal_api.py:upload_file():2889] upload_file request headers: {'User-Agent': 'python-requests/2.32.3', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '4591'}
+2025-05-28 20:56:20,862 ERROR   wandb-upload_0:1033940 [internal_api.py:upload_file():2891] upload_file response body: b"<?xml version='1.0' encoding='UTF-8'?><Error><Code>InternalError</Code><Message>We encountered an internal error. Please try again.</Message><Details>AJfPPBMiWM/5Dgq5XaR9N1EjAeJg6ZD8q5BEwyCHwOXVzl5RsJxSIsmgjBpk7SxNCXJi2nXZ+Z1PXIDLE2tdgZ5vQRQaQxzkSOrHf+MPxbAWVT75kdQLe5pg5H6YVcCP+moJox0SyklH</Details></Error>"
+2025-05-28 20:56:20,975 DEBUG   HandlerThread:1033940 [handler.py:handle_request():158] handle_request: poll_exit
+2025-05-28 20:56:20,976 DEBUG   SenderThread:1033940 [sender.py:send_request():406] send_request: poll_exit
+2025-05-28 20:56:21,975 DEBUG   HandlerThread:1033940 [handler.py:handle_request():158] handle_request: poll_exit
+2025-05-28 20:56:21,976 DEBUG   SenderThread:1033940 [sender.py:send_request():406] send_request: poll_exit
+2025-05-28 20:56:22,083 ERROR   wandb-upload_1:1033940 [internal_api.py:upload_file():2887] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/danish2562022/sweeps-SEIR_kalmar_bleking/pfiqzwts/conda-environment.yaml?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com%2F20250528%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20250528T205611Z&X-Goog-Expires=86399&X-Goog-Signature=77a5299bda4003249041458e6e193b124807bf0aea65add1ada73318f0c8548ec057b0119e373b94b1ec58bee22f8b42f1144ff415fa36e044987b61ee09dcbf02c9a2b315ffec73b624da8b3ceb4ded4285fb13cda3ca0e3d48a37704bf828f3411fcfcf0c4b4121d2a515528edc4597af735281bdbaca7b770ecc18e6aa98db7c2d12864ae81bee79dc94659547a1a7532cf0d8369aa1b1bff4cb556564d272ee0dfb97e7fa261c699a39572e5bb46a260acded006458050d70c4ed167086d7d8396242c8fadb078a0e0810f02f5d5fd6859122d86a998f855cc7bd3e4306258e5b38c9071d9f482aecdfcfa5eac379a52754185f09a599d97b39996f5fc06&X-Goog-SignedHeaders=host&X-User=danish2562022: 500 Server Error: Internal Server Error for url: https://storage.googleapis.com/wandb-production.appspot.com/danish2562022/sweeps-SEIR_kalmar_bleking/pfiqzwts/conda-environment.yaml?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com%2F20250528%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20250528T205611Z&X-Goog-Expires=86399&X-Goog-Signature=77a5299bda4003249041458e6e193b124807bf0aea65add1ada73318f0c8548ec057b0119e373b94b1ec58bee22f8b42f1144ff415fa36e044987b61ee09dcbf02c9a2b315ffec73b624da8b3ceb4ded4285fb13cda3ca0e3d48a37704bf828f3411fcfcf0c4b4121d2a515528edc4597af735281bdbaca7b770ecc18e6aa98db7c2d12864ae81bee79dc94659547a1a7532cf0d8369aa1b1bff4cb556564d272ee0dfb97e7fa261c699a39572e5bb46a260acded006458050d70c4ed167086d7d8396242c8fadb078a0e0810f02f5d5fd6859122d86a998f855cc7bd3e4306258e5b38c9071d9f482aecdfcfa5eac379a52754185f09a599d97b39996f5fc06&X-Goog-SignedHeaders=host&X-User=danish2562022
+2025-05-28 20:56:22,083 ERROR   wandb-upload_1:1033940 [internal_api.py:upload_file():2889] upload_file request headers: {'User-Agent': 'python-requests/2.32.3', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '4387'}
+2025-05-28 20:56:22,083 ERROR   wandb-upload_1:1033940 [internal_api.py:upload_file():2891] upload_file response body: b"<?xml version='1.0' encoding='UTF-8'?><Error><Code>InternalError</Code><Message>We encountered an internal error. Please try again.</Message><Details>AJfPPBOsn1ziKBUjHqKt+Wa/ZXHIoUKYQKyJgJ95wRvBm88rbgRrCq5yZ1genSfUKvhgyTCFD5zfqYkjwTlOEdp+YmzIQCT/WVB7xZoQooqYfTvC0QURWHJbonLt6D5N3hFhwgxvLJST</Details></Error>"
+2025-05-28 20:56:22,090 ERROR   wandb-upload_2:1033940 [internal_api.py:upload_file():2887] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/danish2562022/sweeps-SEIR_kalmar_bleking/pfiqzwts/config.yaml?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com%2F20250528%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20250528T205611Z&X-Goog-Expires=86399&X-Goog-Signature=80281c23b28d4fd7ae5cf5566e83254b31c60acd2fc15e29ece4c9deddd22b99fc6ffd63f4e51ab270e3fed44db378961a0ad26a1c874f63bb6fa7ed1118eef2e3deaf376c724b61fa74d0c1347079a09627bf5ea57ba97c9a95d3ca0556889ee9df19678bfdb51914c37d3c3f59ae1dd63c962224d4cedb2ba508bb944f163651ea47b480d736a40d50b67c343530c1afae26be51329643861fca5435b1b2c4118d62f8149f7a712330cf4eecff350c632a5cb2c305bcac26f6fd13e11a25a03a836b62b6a7c20d48c680e6e0e4ec34c420fb18fbc6b64700e695ea94e009aca524588174bdc921cd1d7c8fc249cbecb3560aff45946c25f576f4daf3086564&X-Goog-SignedHeaders=host&X-User=danish2562022: 500 Server Error: Internal Server Error for url: https://storage.googleapis.com/wandb-production.appspot.com/danish2562022/sweeps-SEIR_kalmar_bleking/pfiqzwts/config.yaml?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com%2F20250528%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20250528T205611Z&X-Goog-Expires=86399&X-Goog-Signature=80281c23b28d4fd7ae5cf5566e83254b31c60acd2fc15e29ece4c9deddd22b99fc6ffd63f4e51ab270e3fed44db378961a0ad26a1c874f63bb6fa7ed1118eef2e3deaf376c724b61fa74d0c1347079a09627bf5ea57ba97c9a95d3ca0556889ee9df19678bfdb51914c37d3c3f59ae1dd63c962224d4cedb2ba508bb944f163651ea47b480d736a40d50b67c343530c1afae26be51329643861fca5435b1b2c4118d62f8149f7a712330cf4eecff350c632a5cb2c305bcac26f6fd13e11a25a03a836b62b6a7c20d48c680e6e0e4ec34c420fb18fbc6b64700e695ea94e009aca524588174bdc921cd1d7c8fc249cbecb3560aff45946c25f576f4daf3086564&X-Goog-SignedHeaders=host&X-User=danish2562022
+2025-05-28 20:56:22,090 ERROR   wandb-upload_2:1033940 [internal_api.py:upload_file():2889] upload_file request headers: {'User-Agent': 'python-requests/2.32.3', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '666'}
+2025-05-28 20:56:22,090 ERROR   wandb-upload_2:1033940 [internal_api.py:upload_file():2891] upload_file response body: b"<?xml version='1.0' encoding='UTF-8'?><Error><Code>InternalError</Code><Message>We encountered an internal error. Please try again.</Message><Details>AJfPPBNbKWJfaM653Nkdx+4bDflPvFHGJPk/EEzzC6OK1bKcS3EeEpXg4gKdsVRsX6kltJXfFw1wkrrUoEMfLDZDOaRIZ+pNELwuNXA42Ucs9CBwB1MFYpGwpZSnE1y6/nLY8CVq4dqu</Details></Error>"
+2025-05-28 20:56:22,123 ERROR   wandb-upload_4:1033940 [internal_api.py:upload_file():2887] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/danish2562022/sweeps-SEIR_kalmar_bleking/pfiqzwts/wandb-summary.json?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com%2F20250528%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20250528T205611Z&X-Goog-Expires=86399&X-Goog-Signature=ae8d57ce7614622b2d5a13acbb23ed007eb24a8429828afb66125eb708beec7b1ef5b143d8344a7d7c47c01c9fb3c9489c34830b4cae2f41a2527d992d789184e68094ab36d9cf0fe73416f9fc53ccd920fdfeb9cd45bf12d00d466f3b7e17cf5fe817ac6562d8dc425e5c3c35b3e4d9e32c9576698f7778fb7b2f8dbd5616d67e75a8df1fa8d12340a1e2abfca8a806173c3b3c0666fd4aae36e045d34a727bf530dccb1d4cb749cb95decb94bcb3121da033e57d6be44ea492585d4417b74a43fb3d7f44eae371c6cafe9e56bb27bb89daaafea43940eb1b48cca89261c66ed3fa29d003f38755b99cdc02c489038d4dd1ab441283b96834db67a77073e5bc&X-Goog-SignedHeaders=host&X-User=danish2562022: 500 Server Error: Internal Server Error for url: https://storage.googleapis.com/wandb-production.appspot.com/danish2562022/sweeps-SEIR_kalmar_bleking/pfiqzwts/wandb-summary.json?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com%2F20250528%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20250528T205611Z&X-Goog-Expires=86399&X-Goog-Signature=ae8d57ce7614622b2d5a13acbb23ed007eb24a8429828afb66125eb708beec7b1ef5b143d8344a7d7c47c01c9fb3c9489c34830b4cae2f41a2527d992d789184e68094ab36d9cf0fe73416f9fc53ccd920fdfeb9cd45bf12d00d466f3b7e17cf5fe817ac6562d8dc425e5c3c35b3e4d9e32c9576698f7778fb7b2f8dbd5616d67e75a8df1fa8d12340a1e2abfca8a806173c3b3c0666fd4aae36e045d34a727bf530dccb1d4cb749cb95decb94bcb3121da033e57d6be44ea492585d4417b74a43fb3d7f44eae371c6cafe9e56bb27bb89daaafea43940eb1b48cca89261c66ed3fa29d003f38755b99cdc02c489038d4dd1ab441283b96834db67a77073e5bc&X-Goog-SignedHeaders=host&X-User=danish2562022
+2025-05-28 20:56:22,123 ERROR   wandb-upload_4:1033940 [internal_api.py:upload_file():2889] upload_file request headers: {'User-Agent': 'python-requests/2.32.3', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '312'}
+2025-05-28 20:56:22,123 ERROR   wandb-upload_4:1033940 [internal_api.py:upload_file():2891] upload_file response body: b"<?xml version='1.0' encoding='UTF-8'?><Error><Code>InternalError</Code><Message>We encountered an internal error. Please try again.</Message><Details>AJfPPBNpnfRm4s13110peQNgpqvBn7rPkuKwlIkZJrfNpV6ndNu5khWiji+g3IlOMc5QLCin963r9OCHYFJioc3s4RsmBjUdPopXwJ8AJnLqC9gcNhysPu97LQfHuai/2/Ha4DXcg6m8</Details></Error>"
+2025-05-28 20:56:22,157 ERROR   wandb-upload_3:1033940 [internal_api.py:upload_file():2887] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/danish2562022/sweeps-SEIR_kalmar_bleking/pfiqzwts/requirements.txt?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com%2F20250528%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20250528T205611Z&X-Goog-Expires=86399&X-Goog-Signature=464643df852c210840ea54063e6c5bc3927a0170ed9c11ab448db7310c1f4fc1e8d3731672dfcf17e895665daa529df21d3c2cda92c999644ff5baed3b71225815aeb774faaa95bcab6422d064580d2a45a616736bbf5d14d09e05ea2eac1db17a39c2adfe4a0f6a9f5f2c86967fb003cdee12eb1677ccd84062425aba39bcfe53a0464fbe4b17322cbc31a3ac15b74f64929b622ee512947528a47286e937bac451544f00a0e77618cf441397c805457d5ef5d2b436867d49cb18965f9597d5e732c5b301dcec1e269f9a5c88c318e5d9ffa1a502b52f22493a2f867c0a23fd7fa95c160f7d6aa942003ce2de91a7f85dbf0cf5c8870110fd5dc62ce2c01a3c&X-Goog-SignedHeaders=host&X-User=danish2562022: 500 Server Error: Internal Server Error for url: https://storage.googleapis.com/wandb-production.appspot.com/danish2562022/sweeps-SEIR_kalmar_bleking/pfiqzwts/requirements.txt?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com%2F20250528%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20250528T205611Z&X-Goog-Expires=86399&X-Goog-Signature=464643df852c210840ea54063e6c5bc3927a0170ed9c11ab448db7310c1f4fc1e8d3731672dfcf17e895665daa529df21d3c2cda92c999644ff5baed3b71225815aeb774faaa95bcab6422d064580d2a45a616736bbf5d14d09e05ea2eac1db17a39c2adfe4a0f6a9f5f2c86967fb003cdee12eb1677ccd84062425aba39bcfe53a0464fbe4b17322cbc31a3ac15b74f64929b622ee512947528a47286e937bac451544f00a0e77618cf441397c805457d5ef5d2b436867d49cb18965f9597d5e732c5b301dcec1e269f9a5c88c318e5d9ffa1a502b52f22493a2f867c0a23fd7fa95c160f7d6aa942003ce2de91a7f85dbf0cf5c8870110fd5dc62ce2c01a3c&X-Goog-SignedHeaders=host&X-User=danish2562022
+2025-05-28 20:56:22,157 ERROR   wandb-upload_3:1033940 [internal_api.py:upload_file():2889] upload_file request headers: {'User-Agent': 'python-requests/2.32.3', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '12078'}
+2025-05-28 20:56:22,157 ERROR   wandb-upload_3:1033940 [internal_api.py:upload_file():2891] upload_file response body: b"<?xml version='1.0' encoding='UTF-8'?><Error><Code>InternalError</Code><Message>We encountered an internal error. Please try again.</Message><Details>AJfPPBPnRk8tZ4VOOyabUrchO1LCMEadHom5V3W3ThxdtAUg6z3TnTnvWfL0H9BBDpftrI8sz3xQaF35Pn9ys+trrLNCIM5Oy5CQL4/OGYDtVkC1G/BJkF6opGXutuE7JtYORN4gomI1</Details></Error>"
+2025-05-28 20:56:22,977 DEBUG   HandlerThread:1033940 [handler.py:handle_request():158] handle_request: poll_exit
+2025-05-28 20:56:22,977 DEBUG   SenderThread:1033940 [sender.py:send_request():406] send_request: poll_exit
+2025-05-28 20:56:23,978 DEBUG   HandlerThread:1033940 [handler.py:handle_request():158] handle_request: poll_exit
+2025-05-28 20:56:23,978 DEBUG   SenderThread:1033940 [sender.py:send_request():406] send_request: poll_exit
+2025-05-28 20:56:24,979 DEBUG   HandlerThread:1033940 [handler.py:handle_request():158] handle_request: status_report
+2025-05-28 20:56:24,979 DEBUG   HandlerThread:1033940 [handler.py:handle_request():158] handle_request: poll_exit
+2025-05-28 20:56:24,979 DEBUG   SenderThread:1033940 [sender.py:send_request():406] send_request: poll_exit
+2025-05-28 20:56:25,980 DEBUG   HandlerThread:1033940 [handler.py:handle_request():158] handle_request: poll_exit
+2025-05-28 20:56:25,980 DEBUG   SenderThread:1033940 [sender.py:send_request():406] send_request: poll_exit
+2025-05-28 20:56:26,981 DEBUG   HandlerThread:1033940 [handler.py:handle_request():158] handle_request: poll_exit
+2025-05-28 20:56:26,981 DEBUG   SenderThread:1033940 [sender.py:send_request():406] send_request: poll_exit
+2025-05-28 20:56:27,982 DEBUG   HandlerThread:1033940 [handler.py:handle_request():158] handle_request: poll_exit
+2025-05-28 20:56:27,982 DEBUG   SenderThread:1033940 [sender.py:send_request():406] send_request: poll_exit
+2025-05-28 20:56:28,982 DEBUG   HandlerThread:1033940 [handler.py:handle_request():158] handle_request: poll_exit
+2025-05-28 20:56:28,983 DEBUG   SenderThread:1033940 [sender.py:send_request():406] send_request: poll_exit
+2025-05-28 20:56:29,983 DEBUG   HandlerThread:1033940 [handler.py:handle_request():158] handle_request: poll_exit
+2025-05-28 20:56:29,984 DEBUG   HandlerThread:1033940 [handler.py:handle_request():158] handle_request: status_report
+2025-05-28 20:56:29,984 DEBUG   SenderThread:1033940 [sender.py:send_request():406] send_request: poll_exit
+2025-05-28 20:56:30,984 DEBUG   HandlerThread:1033940 [handler.py:handle_request():158] handle_request: poll_exit
+2025-05-28 20:56:30,985 DEBUG   SenderThread:1033940 [sender.py:send_request():406] send_request: poll_exit
+2025-05-28 20:56:31,985 DEBUG   HandlerThread:1033940 [handler.py:handle_request():158] handle_request: poll_exit
+2025-05-28 20:56:31,986 DEBUG   SenderThread:1033940 [sender.py:send_request():406] send_request: poll_exit
+2025-05-28 20:56:32,209 ERROR   wandb-upload_0:1033940 [internal_api.py:upload_file():2887] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/danish2562022/sweeps-SEIR_kalmar_bleking/pfiqzwts/wandb-metadata.json?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com%2F20250528%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20250528T205610Z&X-Goog-Expires=86399&X-Goog-Signature=0a9f593b25d9ee375e1b7ae2072f319bcfa52db2227f44eef762685db52ef3c855a356f0e74a70e1cb949f6d94f4d84b67d1c8ca2ce88b8d08dca7f1bd96dfb0b0fa02fdf7c03022093fd8aae2fd698b7012df9d5916364093c48bd80c9c9bc2a1430ce47de4cb690e9e9df7165320e2eef3cf2fbfb2597c090356251af2967e640328bf4157492a896cf449aaae6e7f550c1db07d2776e2ac96dc420366dcbe7757f61d36916c366cc90da4749a1f12f5061f3f8b5410e02ae50d9157cff9a4c0b503e868ccb08ba37fe72a4df68ffb0c181560fee74c098535fad4925751d7a7b428fae9dd7ee7bb40ec4521394821dde12397a2d748cacef4704a984edd32&X-Goog-SignedHeaders=host&X-User=danish2562022: 500 Server Error: Internal Server Error for url: https://storage.googleapis.com/wandb-production.appspot.com/danish2562022/sweeps-SEIR_kalmar_bleking/pfiqzwts/wandb-metadata.json?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com%2F20250528%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20250528T205610Z&X-Goog-Expires=86399&X-Goog-Signature=0a9f593b25d9ee375e1b7ae2072f319bcfa52db2227f44eef762685db52ef3c855a356f0e74a70e1cb949f6d94f4d84b67d1c8ca2ce88b8d08dca7f1bd96dfb0b0fa02fdf7c03022093fd8aae2fd698b7012df9d5916364093c48bd80c9c9bc2a1430ce47de4cb690e9e9df7165320e2eef3cf2fbfb2597c090356251af2967e640328bf4157492a896cf449aaae6e7f550c1db07d2776e2ac96dc420366dcbe7757f61d36916c366cc90da4749a1f12f5061f3f8b5410e02ae50d9157cff9a4c0b503e868ccb08ba37fe72a4df68ffb0c181560fee74c098535fad4925751d7a7b428fae9dd7ee7bb40ec4521394821dde12397a2d748cacef4704a984edd32&X-Goog-SignedHeaders=host&X-User=danish2562022
+2025-05-28 20:56:32,210 ERROR   wandb-upload_0:1033940 [internal_api.py:upload_file():2889] upload_file request headers: {'User-Agent': 'python-requests/2.32.3', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '4591'}
+2025-05-28 20:56:32,210 ERROR   wandb-upload_0:1033940 [internal_api.py:upload_file():2891] upload_file response body: b"<?xml version='1.0' encoding='UTF-8'?><Error><Code>InternalError</Code><Message>We encountered an internal error. Please try again.</Message><Details>AJfPPBNqsxmpz0ZHIQp1P4NlUpxp21wJLbudvJG95N4ti4KEVQmmjnpKVwD8Hw5iRJfLK7Ol/LNh8dlEYPrfM8C5uOFql1KLMPryIXY1V2Tl0Kwe3blH0mUs/VUeVEKw6RECC7EkkUti</Details></Error>"
+2025-05-28 20:56:32,239 INFO    wandb-upload_4:1033940 [upload_job.py:push():130] Uploaded file /12tb_dsk3/SEIR_model/src/wandb/run-20250528_205609-pfiqzwts/files/wandb-summary.json
+2025-05-28 20:56:32,240 INFO    wandb-upload_3:1033940 [upload_job.py:push():130] Uploaded file /12tb_dsk3/SEIR_model/src/wandb/run-20250528_205609-pfiqzwts/files/requirements.txt
+2025-05-28 20:56:32,243 INFO    wandb-upload_1:1033940 [upload_job.py:push():130] Uploaded file /12tb_dsk3/SEIR_model/src/wandb/run-20250528_205609-pfiqzwts/files/conda-environment.yaml
+2025-05-28 20:56:32,298 INFO    wandb-upload_2:1033940 [upload_job.py:push():130] Uploaded file /12tb_dsk3/SEIR_model/src/wandb/run-20250528_205609-pfiqzwts/files/config.yaml
+2025-05-28 20:56:32,986 DEBUG   HandlerThread:1033940 [handler.py:handle_request():158] handle_request: poll_exit
+2025-05-28 20:56:32,986 DEBUG   SenderThread:1033940 [sender.py:send_request():406] send_request: poll_exit
+2025-05-28 20:56:33,987 DEBUG   HandlerThread:1033940 [handler.py:handle_request():158] handle_request: poll_exit
+2025-05-28 20:56:33,987 DEBUG   SenderThread:1033940 [sender.py:send_request():406] send_request: poll_exit
+2025-05-28 20:56:34,978 INFO    wandb-upload_0:1033940 [upload_job.py:push():130] Uploaded file /tmp/tmpj1izih_lwandb/uflv5w5e-wandb-metadata.json
+2025-05-28 20:56:34,987 DEBUG   HandlerThread:1033940 [handler.py:handle_request():158] handle_request: poll_exit
+2025-05-28 20:56:34,988 DEBUG   SenderThread:1033940 [sender.py:send_request():406] send_request: poll_exit
+2025-05-28 20:56:34,988 DEBUG   HandlerThread:1033940 [handler.py:handle_request():158] handle_request: status_report
+2025-05-28 20:56:35,178 INFO    Thread-11 (_thread_body):1033940 [sender.py:transition_state():614] send defer: 11
+2025-05-28 20:56:35,179 DEBUG   HandlerThread:1033940 [handler.py:handle_request():158] handle_request: defer
+2025-05-28 20:56:35,179 INFO    HandlerThread:1033940 [handler.py:handle_request_defer():184] handle defer: 11
+2025-05-28 20:56:35,180 DEBUG   SenderThread:1033940 [sender.py:send_request():406] send_request: defer
+2025-05-28 20:56:35,180 INFO    SenderThread:1033940 [sender.py:send_request_defer():610] handle sender defer: 11
+2025-05-28 20:56:35,180 INFO    SenderThread:1033940 [file_pusher.py:join():175] waiting for file pusher
+2025-05-28 20:56:35,180 INFO    SenderThread:1033940 [sender.py:transition_state():614] send defer: 12
+2025-05-28 20:56:35,180 DEBUG   HandlerThread:1033940 [handler.py:handle_request():158] handle_request: defer
+2025-05-28 20:56:35,180 INFO    HandlerThread:1033940 [handler.py:handle_request_defer():184] handle defer: 12
+2025-05-28 20:56:35,180 DEBUG   SenderThread:1033940 [sender.py:send_request():406] send_request: defer
+2025-05-28 20:56:35,180 INFO    SenderThread:1033940 [sender.py:send_request_defer():610] handle sender defer: 12
+2025-05-28 20:56:35,180 INFO    SenderThread:1033940 [file_stream.py:finish():601] file stream finish called
+2025-05-28 20:56:35,360 INFO    SenderThread:1033940 [file_stream.py:finish():605] file stream finish is done
+2025-05-28 20:56:35,360 INFO    SenderThread:1033940 [sender.py:transition_state():614] send defer: 13
+2025-05-28 20:56:35,360 DEBUG   HandlerThread:1033940 [handler.py:handle_request():158] handle_request: defer
+2025-05-28 20:56:35,361 INFO    HandlerThread:1033940 [handler.py:handle_request_defer():184] handle defer: 13
+2025-05-28 20:56:35,361 DEBUG   SenderThread:1033940 [sender.py:send_request():406] send_request: defer
+2025-05-28 20:56:35,361 INFO    SenderThread:1033940 [sender.py:send_request_defer():610] handle sender defer: 13
+2025-05-28 20:56:35,361 INFO    SenderThread:1033940 [sender.py:transition_state():614] send defer: 14
+2025-05-28 20:56:35,361 DEBUG   HandlerThread:1033940 [handler.py:handle_request():158] handle_request: defer
+2025-05-28 20:56:35,361 INFO    HandlerThread:1033940 [handler.py:handle_request_defer():184] handle defer: 14
+2025-05-28 20:56:35,361 DEBUG   SenderThread:1033940 [sender.py:send():379] send: final
+2025-05-28 20:56:35,361 DEBUG   SenderThread:1033940 [sender.py:send():379] send: footer
+2025-05-28 20:56:35,361 DEBUG   SenderThread:1033940 [sender.py:send_request():406] send_request: defer
+2025-05-28 20:56:35,361 INFO    SenderThread:1033940 [sender.py:send_request_defer():610] handle sender defer: 14
+2025-05-28 20:56:35,362 DEBUG   HandlerThread:1033940 [handler.py:handle_request():158] handle_request: poll_exit
+2025-05-28 20:56:35,362 DEBUG   SenderThread:1033940 [sender.py:send_request():406] send_request: poll_exit
+2025-05-28 20:56:35,363 DEBUG   HandlerThread:1033940 [handler.py:handle_request():158] handle_request: internal_messages
+2025-05-28 20:56:35,363 DEBUG   HandlerThread:1033940 [handler.py:handle_request():158] handle_request: get_summary
+2025-05-28 20:56:35,363 DEBUG   HandlerThread:1033940 [handler.py:handle_request():158] handle_request: sampled_history
+2025-05-28 20:56:35,364 DEBUG   HandlerThread:1033940 [handler.py:handle_request():158] handle_request: shutdown
+2025-05-28 20:56:35,364 INFO    HandlerThread:1033940 [handler.py:finish():882] shutting down handler
+2025-05-28 20:56:36,362 INFO    WriterThread:1033940 [datastore.py:close():296] close: /12tb_dsk3/SEIR_model/src/wandb/run-20250528_205609-pfiqzwts/run-pfiqzwts.wandb
+2025-05-28 20:56:36,363 INFO    SenderThread:1033940 [sender.py:finish():1608] shutting down sender
+2025-05-28 20:56:36,363 INFO    SenderThread:1033940 [file_pusher.py:finish():169] shutting down file pusher
+2025-05-28 20:56:36,363 INFO    SenderThread:1033940 [file_pusher.py:join():175] waiting for file pusher

@@ -1,0 +1,1 @@
+{"CV_RMSE": 1798.7272606489803, "RMSE": 773.87839451697, "RMSE_skane": 700.6742537605841, "RMSE_kronoberg": 73.20414075638604, "CV_RMSE_'skane": 1111.005687781053, "CV_RMSE_kronoberg": 687.7215728679273, "_timestamp": 1748534006.8952758, "_runtime": 1.47021484375, "_step": 0, "_wandb": {"runtime": 1}}

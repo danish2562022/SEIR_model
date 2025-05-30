@@ -1,0 +1,42 @@
+2025-05-29 17:44:12,021 INFO    Thread-25328 (_run_job):81308 [wandb_setup.py:_flush():76] Current SDK version is 0.17.4
+2025-05-29 17:44:12,021 INFO    Thread-25328 (_run_job):81308 [wandb_setup.py:_flush():76] Configure stats pid to 81308
+2025-05-29 17:44:12,021 INFO    Thread-25328 (_run_job):81308 [wandb_setup.py:_flush():76] Loading settings from /home/anwer/.config/wandb/settings
+2025-05-29 17:44:12,021 INFO    Thread-25328 (_run_job):81308 [wandb_setup.py:_flush():76] Loading settings from /12tb_dsk3/SEIR_model/src/wandb/settings
+2025-05-29 17:44:12,021 INFO    Thread-25328 (_run_job):81308 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'sweeps-SEIR_sthlm_sod', 'entity': 'danish2562022', 'root_dir': '/12tb_dsk3/SEIR_model/src', 'run_id': 'wz4cynms', 'sweep_param_path': '/12tb_dsk3/SEIR_model/src/wandb/sweep-y0oseefc/config-wz4cynms.yaml', 'sweep_id': 'y0oseefc'}
+2025-05-29 17:44:12,021 INFO    Thread-25328 (_run_job):81308 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2025-05-29 17:44:12,021 INFO    Thread-25328 (_run_job):81308 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2025-05-29 17:44:12,021 INFO    Thread-25328 (_run_job):81308 [wandb_setup.py:_flush():76] Applying login settings: {}
+2025-05-29 17:44:12,021 INFO    Thread-25328 (_run_job):81308 [wandb_init.py:_log_setup():529] Logging user logs to /12tb_dsk3/SEIR_model/src/wandb/run-20250529_174412-wz4cynms/logs/debug.log
+2025-05-29 17:44:12,021 INFO    Thread-25328 (_run_job):81308 [wandb_init.py:_log_setup():530] Logging internal logs to /12tb_dsk3/SEIR_model/src/wandb/run-20250529_174412-wz4cynms/logs/debug-internal.log
+2025-05-29 17:44:12,021 INFO    Thread-25328 (_run_job):81308 [wandb_init.py:_jupyter_setup():475] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7a3589b375f0>
+2025-05-29 17:44:12,021 INFO    Thread-25328 (_run_job):81308 [wandb_init.py:init():569] calling init triggers
+2025-05-29 17:44:12,021 INFO    Thread-25328 (_run_job):81308 [wandb_init.py:init():576] wandb.init called with sweep_config: {'ah0': 1.4208603514326634, 'ah1': 1.2103464569365894, 'bh0': 7.755709238346153, 'bh1': 23.83020484138143, 'c': 0.7787711291834964}
+config: {}
+2025-05-29 17:44:12,021 INFO    Thread-25328 (_run_job):81308 [wandb_init.py:init():619] starting backend
+2025-05-29 17:44:12,021 INFO    Thread-25328 (_run_job):81308 [wandb_init.py:init():623] setting up manager
+2025-05-29 17:44:12,023 INFO    Thread-25328 (_run_job):81308 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-05-29 17:44:12,023 INFO    Thread-25328 (_run_job):81308 [wandb_init.py:init():631] backend started and connected
+2025-05-29 17:44:12,027 INFO    Thread-25328 (_run_job):81308 [wandb_run.py:_config_callback():1382] config_cb None None {'ah0': 1.4208603514326634, 'ah1': 1.2103464569365894, 'bh0': 7.755709238346153, 'bh1': 23.83020484138143, 'c': 0.7787711291834964}
+2025-05-29 17:44:12,028 INFO    Thread-25328 (_run_job):81308 [wandb_run.py:_label_probe_notebook():1334] probe notebook
+2025-05-29 17:44:12,028 INFO    Thread-25328 (_run_job):81308 [wandb_run.py:_label_probe_notebook():1344] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2025-05-29 17:44:12,028 INFO    Thread-25328 (_run_job):81308 [wandb_init.py:init():720] updated telemetry
+2025-05-29 17:44:12,030 INFO    Thread-25328 (_run_job):81308 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2025-05-29 17:44:12,419 INFO    Thread-25328 (_run_job):81308 [wandb_run.py:_on_init():2402] communicating current version
+2025-05-29 17:44:12,495 INFO    Thread-25328 (_run_job):81308 [wandb_run.py:_on_init():2411] got version response upgrade_message: "wandb version 0.19.11 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2025-05-29 17:44:12,495 INFO    Thread-25328 (_run_job):81308 [wandb_init.py:init():804] starting run threads in backend
+2025-05-29 17:44:13,268 INFO    Thread-25328 (_run_job):81308 [wandb_run.py:_console_start():2380] atexit reg
+2025-05-29 17:44:13,268 INFO    Thread-25328 (_run_job):81308 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2025-05-29 17:44:13,268 INFO    Thread-25328 (_run_job):81308 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2025-05-29 17:44:13,268 INFO    Thread-25328 (_run_job):81308 [wandb_run.py:_redirect():2325] Redirects installed.
+2025-05-29 17:44:13,269 INFO    Thread-25328 (_run_job):81308 [wandb_init.py:init():847] run started, returning control to user process
+2025-05-29 17:44:13,332 INFO    Thread-25328 (_run_job):81308 [wandb_run.py:_finish():2109] finishing run danish2562022/sweeps-SEIR_sthlm_sod/wz4cynms
+2025-05-29 17:44:13,332 INFO    Thread-25328 (_run_job):81308 [jupyter.py:save_history():444] not saving jupyter history
+2025-05-29 17:44:13,332 INFO    Thread-25328 (_run_job):81308 [jupyter.py:save_ipynb():372] not saving jupyter notebook
+2025-05-29 17:44:13,332 INFO    Thread-25328 (_run_job):81308 [wandb_init.py:_jupyter_teardown():457] cleaning up jupyter logic
+2025-05-29 17:44:13,332 INFO    Thread-25328 (_run_job):81308 [wandb_run.py:_atexit_cleanup():2349] got exitcode: 0
+2025-05-29 17:44:13,332 INFO    Thread-25328 (_run_job):81308 [wandb_run.py:_restore():2332] restore
+2025-05-29 17:44:13,332 INFO    Thread-25328 (_run_job):81308 [wandb_run.py:_restore():2338] restore done
+2025-05-29 17:44:16,635 INFO    Thread-25328 (_run_job):81308 [wandb_run.py:_footer_history_summary_info():3991] rendering history
+2025-05-29 17:44:16,636 INFO    Thread-25328 (_run_job):81308 [wandb_run.py:_footer_history_summary_info():4023] rendering summary
+2025-05-29 17:44:16,638 INFO    Thread-25328 (_run_job):81308 [wandb_run.py:_footer_sync_info():3950] logging synced files

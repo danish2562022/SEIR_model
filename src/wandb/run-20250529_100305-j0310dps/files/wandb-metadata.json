@@ -1,0 +1,207 @@
+{
+    "os": "Linux-6.8.0-55-generic-x86_64-with-glibc2.39",
+    "python": "3.12.2",
+    "heartbeatAt": "2025-05-29T10:03:06.230991",
+    "startedAt": "2025-05-29T10:03:05.689860",
+    "docker": null,
+    "cuda": "9.0.176",
+    "args": [],
+    "state": "running",
+    "program": "12tb_dsk3/SEIR_model/src/SEIR_skane_kronoberg.ipynb",
+    "codePathLocal": null,
+    "root": "/12tb_dsk3/SEIR_model",
+    "git": {
+        "remote": "https://github.com/danish2562022/SEIR_model.git",
+        "commit": "815b8b500e481e3833db0d86f1dc04c90b7aa4bc"
+    },
+    "email": "danish2562022@gmail.com",
+    "host": "polster",
+    "username": "anwer",
+    "executable": "/root/miniconda3/bin/python",
+    "cpu_count": 16,
+    "cpu_count_logical": 32,
+    "cpu_freq": {
+        "current": 3787.5715624999993,
+        "min": 545.0,
+        "max": 5371.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3335.484,
+            "min": 545.0,
+            "max": 5371.0
+        },
+        {
+            "current": 4782.193,
+            "min": 545.0,
+            "max": 5371.0
+        },
+        {
+            "current": 2450.639,
+            "min": 545.0,
+            "max": 5371.0
+        },
+        {
+            "current": 4784.037,
+            "min": 545.0,
+            "max": 5371.0
+        },
+        {
+            "current": 4792.063,
+            "min": 545.0,
+            "max": 5371.0
+        },
+        {
+            "current": 2367.377,
+            "min": 545.0,
+            "max": 5371.0
+        },
+        {
+            "current": 2810.221,
+            "min": 545.0,
+            "max": 5371.0
+        },
+        {
+            "current": 3033.113,
+            "min": 545.0,
+            "max": 5371.0
+        },
+        {
+            "current": 2464.252,
+            "min": 545.0,
+            "max": 5371.0
+        },
+        {
+            "current": 4714.133,
+            "min": 545.0,
+            "max": 5371.0
+        },
+        {
+            "current": 4692.294,
+            "min": 545.0,
+            "max": 5371.0
+        },
+        {
+            "current": 4700.599,
+            "min": 545.0,
+            "max": 5371.0
+        },
+        {
+            "current": 2192.191,
+            "min": 545.0,
+            "max": 5371.0
+        },
+        {
+            "current": 2501.145,
+            "min": 545.0,
+            "max": 5371.0
+        },
+        {
+            "current": 3498.94,
+            "min": 545.0,
+            "max": 5371.0
+        },
+        {
+            "current": 4791.021,
+            "min": 545.0,
+            "max": 5371.0
+        },
+        {
+            "current": 2583.437,
+            "min": 545.0,
+            "max": 5371.0
+        },
+        {
+            "current": 4772.296,
+            "min": 545.0,
+            "max": 5371.0
+        },
+        {
+            "current": 2433.246,
+            "min": 545.0,
+            "max": 5371.0
+        },
+        {
+            "current": 3611.487,
+            "min": 545.0,
+            "max": 5371.0
+        },
+        {
+            "current": 4726.498,
+            "min": 545.0,
+            "max": 5371.0
+        },
+        {
+            "current": 2911.5,
+            "min": 545.0,
+            "max": 5371.0
+        },
+        {
+            "current": 3464.632,
+            "min": 545.0,
+            "max": 5371.0
+        },
+        {
+            "current": 3147.733,
+            "min": 545.0,
+            "max": 5371.0
+        },
+        {
+            "current": 2377.451,
+            "min": 545.0,
+            "max": 5371.0
+        },
+        {
+            "current": 2305.32,
+            "min": 545.0,
+            "max": 5371.0
+        },
+        {
+            "current": 2973.235,
+            "min": 545.0,
+            "max": 5371.0
+        },
+        {
+            "current": 4178.938,
+            "min": 545.0,
+            "max": 5371.0
+        },
+        {
+            "current": 4761.783,
+            "min": 545.0,
+            "max": 5371.0
+        },
+        {
+            "current": 2507.124,
+            "min": 545.0,
+            "max": 5371.0
+        },
+        {
+            "current": 4684.798,
+            "min": 545.0,
+            "max": 5371.0
+        },
+        {
+            "current": 4659.286,
+            "min": 545.0,
+            "max": 5371.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 3752.004409790039,
+            "used": 2783.799861907959
+        }
+    },
+    "gpu": "NVIDIA RTX 6000 Ada Generation",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA RTX 6000 Ada Generation",
+            "memory_total": 51527024640
+        }
+    ],
+    "memory": {
+        "total": 251.08872985839844
+    }
+}

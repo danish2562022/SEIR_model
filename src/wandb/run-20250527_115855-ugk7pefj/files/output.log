@@ -1,0 +1,14 @@
+[34m[1mwandb[39m[22m: Ctrl + C detected. Stopping sweep.
+KeyboardInterrupt
+{'method': 'random',
+ 'metric': {'goal': 'minimize', 'name': 'CV_RMSE'},
+ {'method': 'random',
+ 'metric': {'goal': 'minimize', 'name': 'CV_RMSE'},
+ 'parameters': {'ah0': {'distribution': 'uniform', 'max': 3, 'min': 0},
+                'ah1': {'distribution': 'uniform', 'max': 3, 'min': 0},
+                'bh0': {'distribution': 'uniform', 'max': 25, 'min': 5},
+                'bh1': {'distribution': 'uniform', 'max': 25, 'min': 5},
+                'c': {'distribution': 'uniform', 'max': 1, 'min': -0.2}}}
+Create sweep with ID: 4frmg7sz
+Sweep URL: https://wandb.ai/danish2562022/sweeps-SEIR/sweeps/4frmg7sz
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.

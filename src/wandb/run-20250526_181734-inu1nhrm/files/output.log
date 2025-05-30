@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/tmp/ipykernel_3221425/1138332415.py", line 18, in fit_model
+    CV_RMSE = CV_RMSE_1 + CV_RMSE_2s
+                          ^^^^^^^^^^
+NameError: name 'CV_RMSE_2s' is not defined. Did you mean: 'CV_RMSE_2'?

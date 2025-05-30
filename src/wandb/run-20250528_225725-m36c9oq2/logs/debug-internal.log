@@ -1,0 +1,173 @@
+2025-05-28 22:57:25,530 INFO    StreamThr :1116379 [internal.py:wandb_internal():85] W&B internal server running at pid: 1116379, started at: 2025-05-28 22:57:25.529832
+2025-05-28 22:57:25,531 DEBUG   HandlerThread:1116379 [handler.py:handle_request():158] handle_request: status
+2025-05-28 22:57:25,534 INFO    WriterThread:1116379 [datastore.py:open_for_write():87] open: /12tb_dsk3/SEIR_model/src/wandb/run-20250528_225725-m36c9oq2/run-m36c9oq2.wandb
+2025-05-28 22:57:25,534 DEBUG   SenderThread:1116379 [sender.py:send():379] send: header
+2025-05-28 22:57:25,536 DEBUG   SenderThread:1116379 [sender.py:send():379] send: run
+2025-05-28 22:57:25,951 INFO    SenderThread:1116379 [dir_watcher.py:__init__():211] watching files in: /12tb_dsk3/SEIR_model/src/wandb/run-20250528_225725-m36c9oq2/files
+2025-05-28 22:57:25,952 INFO    SenderThread:1116379 [sender.py:_start_run_threads():1188] run started: m36c9oq2 with start time 1748473045.529114
+2025-05-28 22:57:25,955 DEBUG   HandlerThread:1116379 [handler.py:handle_request():158] handle_request: check_version
+2025-05-28 22:57:25,955 DEBUG   SenderThread:1116379 [sender.py:send_request():406] send_request: check_version
+2025-05-28 22:57:26,034 DEBUG   HandlerThread:1116379 [handler.py:handle_request():158] handle_request: run_start
+2025-05-28 22:57:26,041 DEBUG   HandlerThread:1116379 [system_info.py:__init__():26] System info init
+2025-05-28 22:57:26,041 DEBUG   HandlerThread:1116379 [system_info.py:__init__():41] System info init done
+2025-05-28 22:57:26,041 INFO    HandlerThread:1116379 [system_monitor.py:start():194] Starting system monitor
+2025-05-28 22:57:26,041 INFO    SystemMonitor:1116379 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2025-05-28 22:57:26,041 INFO    HandlerThread:1116379 [system_monitor.py:probe():214] Collecting system info
+2025-05-28 22:57:26,041 INFO    SystemMonitor:1116379 [interfaces.py:start():188] Started cpu monitoring
+2025-05-28 22:57:26,041 INFO    SystemMonitor:1116379 [interfaces.py:start():188] Started disk monitoring
+2025-05-28 22:57:26,042 INFO    SystemMonitor:1116379 [interfaces.py:start():188] Started gpu monitoring
+2025-05-28 22:57:26,043 INFO    SystemMonitor:1116379 [interfaces.py:start():188] Started memory monitoring
+2025-05-28 22:57:26,043 INFO    SystemMonitor:1116379 [interfaces.py:start():188] Started network monitoring
+2025-05-28 22:57:26,050 DEBUG   HandlerThread:1116379 [system_info.py:probe():152] Probing system
+2025-05-28 22:57:26,051 DEBUG   HandlerThread:1116379 [system_info.py:_probe_git():137] Probing git
+2025-05-28 22:57:26,055 DEBUG   HandlerThread:1116379 [system_info.py:_probe_git():145] Probing git done
+2025-05-28 22:57:26,055 DEBUG   HandlerThread:1116379 [system_info.py:probe():200] Probing system done
+2025-05-28 22:57:26,055 DEBUG   HandlerThread:1116379 [system_monitor.py:probe():223] {'os': 'Linux-6.8.0-55-generic-x86_64-with-glibc2.39', 'python': '3.12.2', 'heartbeatAt': '2025-05-28T22:57:26.050459', 'startedAt': '2025-05-28T22:57:25.526265', 'docker': None, 'cuda': '9.0.176', 'args': (), 'state': 'running', 'program': '12tb_dsk3/SEIR_model/src/SEIR_sthlm_södermanland_os_da.ipynb', 'codePathLocal': None, 'root': '/12tb_dsk3/SEIR_model', 'git': {'remote': 'https://github.com/danish2562022/SEIR_model.git', 'commit': '815b8b500e481e3833db0d86f1dc04c90b7aa4bc'}, 'email': 'danish2562022@gmail.com', 'host': 'polster', 'username': 'anwer', 'executable': '/root/miniconda3/bin/python', 'cpu_count': 16, 'cpu_count_logical': 32, 'cpu_freq': {'current': 2073.3391874999998, 'min': 545.0, 'max': 5371.0}, 'cpu_freq_per_core': [{'current': 1960.676, 'min': 545.0, 'max': 5371.0}, {'current': 545.0, 'min': 545.0, 'max': 5371.0}, {'current': 545.0, 'min': 545.0, 'max': 5371.0}, {'current': 545.0, 'min': 545.0, 'max': 5371.0}, {'current': 3208.327, 'min': 545.0, 'max': 5371.0}, {'current': 545.0, 'min': 545.0, 'max': 5371.0}, {'current': 545.0, 'min': 545.0, 'max': 5371.0}, {'current': 2554.665, 'min': 545.0, 'max': 5371.0}, {'current': 545.0, 'min': 545.0, 'max': 5371.0}, {'current': 545.0, 'min': 545.0, 'max': 5371.0}, {'current': 545.0, 'min': 545.0, 'max': 5371.0}, {'current': 545.0, 'min': 545.0, 'max': 5371.0}, {'current': 5062.221, 'min': 545.0, 'max': 5371.0}, {'current': 4783.071, 'min': 545.0, 'max': 5371.0}, {'current': 5015.562, 'min': 545.0, 'max': 5371.0}, {'current': 4798.133, 'min': 545.0, 'max': 5371.0}, {'current': 4792.216, 'min': 545.0, 'max': 5371.0}, {'current': 4795.38, 'min': 545.0, 'max': 5371.0}, {'current': 4793.038, 'min': 545.0, 'max': 5371.0}, {'current': 545.0, 'min': 545.0, 'max': 5371.0}, {'current': 1913.434, 'min': 545.0, 'max': 5371.0}, {'current': 545.0, 'min': 545.0, 'max': 5371.0}, {'current': 545.0, 'min': 545.0, 'max': 5371.0}, {'current': 545.0, 'min': 545.0, 'max': 5371.0}, {'current': 1656.382, 'min': 545.0, 'max': 5371.0}, {'current': 545.0, 'min': 545.0, 'max': 5371.0}, {'current': 545.0, 'min': 545.0, 'max': 5371.0}, {'current': 1909.973, 'min': 545.0, 'max': 5371.0}, {'current': 1913.489, 'min': 545.0, 'max': 5371.0}, {'current': 545.0, 'min': 545.0, 'max': 5371.0}, {'current': 545.0, 'min': 545.0, 'max': 5371.0}, {'current': 545.0, 'min': 545.0, 'max': 5371.0}], 'disk': {'/': {'total': 3752.004409790039, 'used': 2783.798725128174}}, 'gpu': 'NVIDIA RTX 6000 Ada Generation', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA RTX 6000 Ada Generation', 'memory_total': 51527024640}], 'memory': {'total': 251.08872985839844}}
+2025-05-28 22:57:26,055 INFO    HandlerThread:1116379 [system_monitor.py:probe():224] Finished collecting system info
+2025-05-28 22:57:26,055 INFO    HandlerThread:1116379 [system_monitor.py:probe():227] Publishing system info
+2025-05-28 22:57:26,055 DEBUG   HandlerThread:1116379 [system_info.py:_save_conda():209] Saving list of conda packages installed into the current environment
+2025-05-28 22:57:26,571 DEBUG   HandlerThread:1116379 [system_info.py:_save_conda():224] Saving conda packages done
+2025-05-28 22:57:26,571 INFO    HandlerThread:1116379 [system_monitor.py:probe():229] Finished publishing system info
+2025-05-28 22:57:26,574 DEBUG   SenderThread:1116379 [sender.py:send():379] send: files
+2025-05-28 22:57:26,574 INFO    SenderThread:1116379 [sender.py:_save_file():1454] saving file wandb-metadata.json with policy now
+2025-05-28 22:57:26,747 DEBUG   HandlerThread:1116379 [handler.py:handle_request():158] handle_request: python_packages
+2025-05-28 22:57:26,747 DEBUG   SenderThread:1116379 [sender.py:send_request():406] send_request: python_packages
+2025-05-28 22:57:26,748 DEBUG   SenderThread:1116379 [sender.py:send():379] send: telemetry
+2025-05-28 22:57:26,748 DEBUG   HandlerThread:1116379 [handler.py:handle_request():158] handle_request: internal_messages
+2025-05-28 22:57:26,749 DEBUG   HandlerThread:1116379 [handler.py:handle_request():158] handle_request: stop_status
+2025-05-28 22:57:26,749 DEBUG   SenderThread:1116379 [sender.py:send_request():406] send_request: stop_status
+2025-05-28 22:57:26,811 DEBUG   HandlerThread:1116379 [handler.py:handle_request():158] handle_request: partial_history
+2025-05-28 22:57:26,811 DEBUG   HandlerThread:1116379 [handler.py:handle_request():158] handle_request: server_info
+2025-05-28 22:57:26,953 INFO    Thread-12 :1116379 [dir_watcher.py:_on_file_created():271] file/dir created: /12tb_dsk3/SEIR_model/src/wandb/run-20250528_225725-m36c9oq2/files/requirements.txt
+2025-05-28 22:57:26,953 INFO    Thread-12 :1116379 [dir_watcher.py:_on_file_created():271] file/dir created: /12tb_dsk3/SEIR_model/src/wandb/run-20250528_225725-m36c9oq2/files/wandb-metadata.json
+2025-05-28 22:57:26,953 INFO    Thread-12 :1116379 [dir_watcher.py:_on_file_created():271] file/dir created: /12tb_dsk3/SEIR_model/src/wandb/run-20250528_225725-m36c9oq2/files/conda-environment.yaml
+2025-05-28 22:57:27,092 DEBUG   SenderThread:1116379 [sender.py:send():379] send: history
+2025-05-28 22:57:27,093 DEBUG   SenderThread:1116379 [sender.py:send_request():406] send_request: summary_record
+2025-05-28 22:57:27,093 INFO    SenderThread:1116379 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-05-28 22:57:27,093 DEBUG   SenderThread:1116379 [sender.py:send():379] send: telemetry
+2025-05-28 22:57:27,093 DEBUG   SenderThread:1116379 [sender.py:send_request():406] send_request: server_info
+2025-05-28 22:57:27,167 INFO    wandb-upload_0:1116379 [upload_job.py:push():130] Uploaded file /tmp/tmpwtr95pflwandb/72azkngu-wandb-metadata.json
+2025-05-28 22:57:27,250 DEBUG   SenderThread:1116379 [sender.py:send():379] send: exit
+2025-05-28 22:57:27,250 INFO    SenderThread:1116379 [sender.py:send_exit():586] handling exit code: 0
+2025-05-28 22:57:27,250 INFO    SenderThread:1116379 [sender.py:send_exit():588] handling runtime: 1
+2025-05-28 22:57:27,250 INFO    SenderThread:1116379 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-05-28 22:57:27,250 INFO    SenderThread:1116379 [sender.py:send_exit():594] send defer
+2025-05-28 22:57:27,250 DEBUG   HandlerThread:1116379 [handler.py:handle_request():158] handle_request: defer
+2025-05-28 22:57:27,250 INFO    HandlerThread:1116379 [handler.py:handle_request_defer():184] handle defer: 0
+2025-05-28 22:57:27,251 DEBUG   SenderThread:1116379 [sender.py:send_request():406] send_request: defer
+2025-05-28 22:57:27,251 INFO    SenderThread:1116379 [sender.py:send_request_defer():610] handle sender defer: 0
+2025-05-28 22:57:27,251 INFO    SenderThread:1116379 [sender.py:transition_state():614] send defer: 1
+2025-05-28 22:57:27,251 DEBUG   HandlerThread:1116379 [handler.py:handle_request():158] handle_request: defer
+2025-05-28 22:57:27,251 INFO    HandlerThread:1116379 [handler.py:handle_request_defer():184] handle defer: 1
+2025-05-28 22:57:27,251 DEBUG   SenderThread:1116379 [sender.py:send_request():406] send_request: defer
+2025-05-28 22:57:27,251 INFO    SenderThread:1116379 [sender.py:send_request_defer():610] handle sender defer: 1
+2025-05-28 22:57:27,251 INFO    SenderThread:1116379 [sender.py:transition_state():614] send defer: 2
+2025-05-28 22:57:27,251 DEBUG   HandlerThread:1116379 [handler.py:handle_request():158] handle_request: defer
+2025-05-28 22:57:27,251 INFO    HandlerThread:1116379 [handler.py:handle_request_defer():184] handle defer: 2
+2025-05-28 22:57:27,251 INFO    HandlerThread:1116379 [system_monitor.py:finish():203] Stopping system monitor
+2025-05-28 22:57:27,251 DEBUG   SystemMonitor:1116379 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2025-05-28 22:57:27,251 DEBUG   SystemMonitor:1116379 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2025-05-28 22:57:27,251 DEBUG   SystemMonitor:1116379 [system_monitor.py:_start():183] Publishing last batch of metrics
+2025-05-28 22:57:27,252 INFO    HandlerThread:1116379 [interfaces.py:finish():200] Joined cpu monitor
+2025-05-28 22:57:27,252 INFO    HandlerThread:1116379 [interfaces.py:finish():200] Joined disk monitor
+2025-05-28 22:57:27,288 INFO    HandlerThread:1116379 [interfaces.py:finish():200] Joined gpu monitor
+2025-05-28 22:57:27,289 INFO    HandlerThread:1116379 [interfaces.py:finish():200] Joined memory monitor
+2025-05-28 22:57:27,289 INFO    HandlerThread:1116379 [interfaces.py:finish():200] Joined network monitor
+2025-05-28 22:57:27,289 DEBUG   SenderThread:1116379 [sender.py:send_request():406] send_request: defer
+2025-05-28 22:57:27,289 INFO    SenderThread:1116379 [sender.py:send_request_defer():610] handle sender defer: 2
+2025-05-28 22:57:27,289 INFO    SenderThread:1116379 [sender.py:transition_state():614] send defer: 3
+2025-05-28 22:57:27,289 DEBUG   SenderThread:1116379 [sender.py:send():379] send: stats
+2025-05-28 22:57:27,289 DEBUG   HandlerThread:1116379 [handler.py:handle_request():158] handle_request: defer
+2025-05-28 22:57:27,290 INFO    HandlerThread:1116379 [handler.py:handle_request_defer():184] handle defer: 3
+2025-05-28 22:57:27,290 DEBUG   SenderThread:1116379 [sender.py:send_request():406] send_request: defer
+2025-05-28 22:57:27,290 INFO    SenderThread:1116379 [sender.py:send_request_defer():610] handle sender defer: 3
+2025-05-28 22:57:27,290 INFO    SenderThread:1116379 [sender.py:transition_state():614] send defer: 4
+2025-05-28 22:57:27,290 DEBUG   HandlerThread:1116379 [handler.py:handle_request():158] handle_request: defer
+2025-05-28 22:57:27,290 INFO    HandlerThread:1116379 [handler.py:handle_request_defer():184] handle defer: 4
+2025-05-28 22:57:27,290 DEBUG   SenderThread:1116379 [sender.py:send_request():406] send_request: defer
+2025-05-28 22:57:27,290 INFO    SenderThread:1116379 [sender.py:send_request_defer():610] handle sender defer: 4
+2025-05-28 22:57:27,290 INFO    SenderThread:1116379 [sender.py:transition_state():614] send defer: 5
+2025-05-28 22:57:27,290 DEBUG   HandlerThread:1116379 [handler.py:handle_request():158] handle_request: defer
+2025-05-28 22:57:27,290 INFO    HandlerThread:1116379 [handler.py:handle_request_defer():184] handle defer: 5
+2025-05-28 22:57:27,290 DEBUG   SenderThread:1116379 [sender.py:send():379] send: summary
+2025-05-28 22:57:27,290 INFO    SenderThread:1116379 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-05-28 22:57:27,290 DEBUG   SenderThread:1116379 [sender.py:send_request():406] send_request: defer
+2025-05-28 22:57:27,290 INFO    SenderThread:1116379 [sender.py:send_request_defer():610] handle sender defer: 5
+2025-05-28 22:57:27,290 INFO    SenderThread:1116379 [sender.py:transition_state():614] send defer: 6
+2025-05-28 22:57:27,291 DEBUG   HandlerThread:1116379 [handler.py:handle_request():158] handle_request: defer
+2025-05-28 22:57:27,291 INFO    HandlerThread:1116379 [handler.py:handle_request_defer():184] handle defer: 6
+2025-05-28 22:57:27,291 DEBUG   SenderThread:1116379 [sender.py:send_request():406] send_request: defer
+2025-05-28 22:57:27,291 INFO    SenderThread:1116379 [sender.py:send_request_defer():610] handle sender defer: 6
+2025-05-28 22:57:27,293 DEBUG   HandlerThread:1116379 [handler.py:handle_request():158] handle_request: status_report
+2025-05-28 22:57:27,464 INFO    SenderThread:1116379 [sender.py:transition_state():614] send defer: 7
+2025-05-28 22:57:27,464 DEBUG   HandlerThread:1116379 [handler.py:handle_request():158] handle_request: defer
+2025-05-28 22:57:27,464 INFO    HandlerThread:1116379 [handler.py:handle_request_defer():184] handle defer: 7
+2025-05-28 22:57:27,465 DEBUG   SenderThread:1116379 [sender.py:send_request():406] send_request: defer
+2025-05-28 22:57:27,465 INFO    SenderThread:1116379 [sender.py:send_request_defer():610] handle sender defer: 7
+2025-05-28 22:57:27,465 INFO    SenderThread:1116379 [sender.py:transition_state():614] send defer: 8
+2025-05-28 22:57:27,465 DEBUG   HandlerThread:1116379 [handler.py:handle_request():158] handle_request: defer
+2025-05-28 22:57:27,465 INFO    HandlerThread:1116379 [handler.py:handle_request_defer():184] handle defer: 8
+2025-05-28 22:57:27,465 DEBUG   SenderThread:1116379 [sender.py:send_request():406] send_request: defer
+2025-05-28 22:57:27,465 INFO    SenderThread:1116379 [sender.py:send_request_defer():610] handle sender defer: 8
+2025-05-28 22:57:27,465 INFO    SenderThread:1116379 [sender.py:transition_state():614] send defer: 9
+2025-05-28 22:57:27,465 DEBUG   HandlerThread:1116379 [handler.py:handle_request():158] handle_request: defer
+2025-05-28 22:57:27,465 INFO    HandlerThread:1116379 [handler.py:handle_request_defer():184] handle defer: 9
+2025-05-28 22:57:27,465 DEBUG   SenderThread:1116379 [sender.py:send_request():406] send_request: defer
+2025-05-28 22:57:27,465 INFO    SenderThread:1116379 [sender.py:send_request_defer():610] handle sender defer: 9
+2025-05-28 22:57:27,465 INFO    SenderThread:1116379 [dir_watcher.py:finish():358] shutting down directory watcher
+2025-05-28 22:57:27,952 INFO    Thread-12 :1116379 [dir_watcher.py:_on_file_modified():288] file/dir modified: /12tb_dsk3/SEIR_model/src/wandb/run-20250528_225725-m36c9oq2/files/config.yaml
+2025-05-28 22:57:27,952 INFO    SenderThread:1116379 [dir_watcher.py:_on_file_created():271] file/dir created: /12tb_dsk3/SEIR_model/src/wandb/run-20250528_225725-m36c9oq2/files/wandb-summary.json
+2025-05-28 22:57:27,953 INFO    SenderThread:1116379 [dir_watcher.py:finish():388] scan: /12tb_dsk3/SEIR_model/src/wandb/run-20250528_225725-m36c9oq2/files
+2025-05-28 22:57:27,953 INFO    SenderThread:1116379 [dir_watcher.py:finish():402] scan save: /12tb_dsk3/SEIR_model/src/wandb/run-20250528_225725-m36c9oq2/files/conda-environment.yaml conda-environment.yaml
+2025-05-28 22:57:27,953 INFO    SenderThread:1116379 [dir_watcher.py:finish():402] scan save: /12tb_dsk3/SEIR_model/src/wandb/run-20250528_225725-m36c9oq2/files/config.yaml config.yaml
+2025-05-28 22:57:27,954 INFO    SenderThread:1116379 [dir_watcher.py:finish():402] scan save: /12tb_dsk3/SEIR_model/src/wandb/run-20250528_225725-m36c9oq2/files/wandb-metadata.json wandb-metadata.json
+2025-05-28 22:57:27,954 INFO    SenderThread:1116379 [dir_watcher.py:finish():402] scan save: /12tb_dsk3/SEIR_model/src/wandb/run-20250528_225725-m36c9oq2/files/requirements.txt requirements.txt
+2025-05-28 22:57:27,956 INFO    SenderThread:1116379 [dir_watcher.py:finish():402] scan save: /12tb_dsk3/SEIR_model/src/wandb/run-20250528_225725-m36c9oq2/files/wandb-summary.json wandb-summary.json
+2025-05-28 22:57:27,957 INFO    SenderThread:1116379 [sender.py:transition_state():614] send defer: 10
+2025-05-28 22:57:27,958 DEBUG   HandlerThread:1116379 [handler.py:handle_request():158] handle_request: defer
+2025-05-28 22:57:27,958 INFO    HandlerThread:1116379 [handler.py:handle_request_defer():184] handle defer: 10
+2025-05-28 22:57:27,960 DEBUG   SenderThread:1116379 [sender.py:send_request():406] send_request: defer
+2025-05-28 22:57:27,960 INFO    SenderThread:1116379 [sender.py:send_request_defer():610] handle sender defer: 10
+2025-05-28 22:57:27,960 INFO    SenderThread:1116379 [file_pusher.py:finish():169] shutting down file pusher
+2025-05-28 22:57:28,250 DEBUG   HandlerThread:1116379 [handler.py:handle_request():158] handle_request: poll_exit
+2025-05-28 22:57:28,250 DEBUG   SenderThread:1116379 [sender.py:send_request():406] send_request: poll_exit
+2025-05-28 22:57:28,383 INFO    wandb-upload_1:1116379 [upload_job.py:push():130] Uploaded file /12tb_dsk3/SEIR_model/src/wandb/run-20250528_225725-m36c9oq2/files/config.yaml
+2025-05-28 22:57:28,398 INFO    wandb-upload_0:1116379 [upload_job.py:push():130] Uploaded file /12tb_dsk3/SEIR_model/src/wandb/run-20250528_225725-m36c9oq2/files/conda-environment.yaml
+2025-05-28 22:57:28,460 INFO    wandb-upload_3:1116379 [upload_job.py:push():130] Uploaded file /12tb_dsk3/SEIR_model/src/wandb/run-20250528_225725-m36c9oq2/files/wandb-summary.json
+2025-05-28 22:57:28,487 INFO    wandb-upload_2:1116379 [upload_job.py:push():130] Uploaded file /12tb_dsk3/SEIR_model/src/wandb/run-20250528_225725-m36c9oq2/files/requirements.txt
+2025-05-28 22:57:28,687 INFO    Thread-11 (_thread_body):1116379 [sender.py:transition_state():614] send defer: 11
+2025-05-28 22:57:28,687 DEBUG   HandlerThread:1116379 [handler.py:handle_request():158] handle_request: defer
+2025-05-28 22:57:28,687 INFO    HandlerThread:1116379 [handler.py:handle_request_defer():184] handle defer: 11
+2025-05-28 22:57:28,688 DEBUG   SenderThread:1116379 [sender.py:send_request():406] send_request: defer
+2025-05-28 22:57:28,688 INFO    SenderThread:1116379 [sender.py:send_request_defer():610] handle sender defer: 11
+2025-05-28 22:57:28,688 INFO    SenderThread:1116379 [file_pusher.py:join():175] waiting for file pusher
+2025-05-28 22:57:28,688 INFO    SenderThread:1116379 [sender.py:transition_state():614] send defer: 12
+2025-05-28 22:57:28,688 DEBUG   HandlerThread:1116379 [handler.py:handle_request():158] handle_request: defer
+2025-05-28 22:57:28,688 INFO    HandlerThread:1116379 [handler.py:handle_request_defer():184] handle defer: 12
+2025-05-28 22:57:28,688 DEBUG   SenderThread:1116379 [sender.py:send_request():406] send_request: defer
+2025-05-28 22:57:28,688 INFO    SenderThread:1116379 [sender.py:send_request_defer():610] handle sender defer: 12
+2025-05-28 22:57:28,688 INFO    SenderThread:1116379 [file_stream.py:finish():601] file stream finish called
+2025-05-28 22:57:28,972 INFO    SenderThread:1116379 [file_stream.py:finish():605] file stream finish is done
+2025-05-28 22:57:28,973 INFO    SenderThread:1116379 [sender.py:transition_state():614] send defer: 13
+2025-05-28 22:57:28,973 DEBUG   HandlerThread:1116379 [handler.py:handle_request():158] handle_request: defer
+2025-05-28 22:57:28,973 INFO    HandlerThread:1116379 [handler.py:handle_request_defer():184] handle defer: 13
+2025-05-28 22:57:28,973 DEBUG   SenderThread:1116379 [sender.py:send_request():406] send_request: defer
+2025-05-28 22:57:28,973 INFO    SenderThread:1116379 [sender.py:send_request_defer():610] handle sender defer: 13
+2025-05-28 22:57:28,973 INFO    SenderThread:1116379 [sender.py:transition_state():614] send defer: 14
+2025-05-28 22:57:28,973 DEBUG   HandlerThread:1116379 [handler.py:handle_request():158] handle_request: defer
+2025-05-28 22:57:28,973 INFO    HandlerThread:1116379 [handler.py:handle_request_defer():184] handle defer: 14
+2025-05-28 22:57:28,973 DEBUG   SenderThread:1116379 [sender.py:send():379] send: final
+2025-05-28 22:57:28,973 DEBUG   SenderThread:1116379 [sender.py:send():379] send: footer
+2025-05-28 22:57:28,973 DEBUG   SenderThread:1116379 [sender.py:send_request():406] send_request: defer
+2025-05-28 22:57:28,973 INFO    SenderThread:1116379 [sender.py:send_request_defer():610] handle sender defer: 14
+2025-05-28 22:57:28,974 DEBUG   HandlerThread:1116379 [handler.py:handle_request():158] handle_request: poll_exit
+2025-05-28 22:57:28,974 DEBUG   SenderThread:1116379 [sender.py:send_request():406] send_request: poll_exit
+2025-05-28 22:57:28,976 DEBUG   HandlerThread:1116379 [handler.py:handle_request():158] handle_request: internal_messages
+2025-05-28 22:57:28,976 DEBUG   HandlerThread:1116379 [handler.py:handle_request():158] handle_request: get_summary
+2025-05-28 22:57:28,976 DEBUG   HandlerThread:1116379 [handler.py:handle_request():158] handle_request: sampled_history
+2025-05-28 22:57:28,976 DEBUG   HandlerThread:1116379 [handler.py:handle_request():158] handle_request: shutdown
+2025-05-28 22:57:28,976 INFO    HandlerThread:1116379 [handler.py:finish():882] shutting down handler
+2025-05-28 22:57:29,974 INFO    WriterThread:1116379 [datastore.py:close():296] close: /12tb_dsk3/SEIR_model/src/wandb/run-20250528_225725-m36c9oq2/run-m36c9oq2.wandb
+2025-05-28 22:57:29,974 INFO    SenderThread:1116379 [sender.py:finish():1608] shutting down sender
+2025-05-28 22:57:29,974 INFO    SenderThread:1116379 [file_pusher.py:finish():169] shutting down file pusher
+2025-05-28 22:57:29,974 INFO    SenderThread:1116379 [file_pusher.py:join():175] waiting for file pusher

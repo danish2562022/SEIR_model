@@ -1,0 +1,13 @@
+/root/miniconda3/lib/python3.12/site-packages/scipy/integrate/_odepack_py.py:248: ODEintWarning: Excess work done on this call (perhaps wrong Dfun type). Run with full_output = 1 to get quantitative information.
+  warnings.warn(warning_msg, ODEintWarning)
+Traceback (most recent call last):
+  File "/tmp/ipykernel_743104/2398876020.py", line 16, in fit_model
+    CV_RMSE_1 = return_CV_RMSE(P[:,0], I_train[0])
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_743104/4131186817.py", line 5, in return_CV_RMSE
+    return 100 * return_RMSE(P, I) / np.mean(I)
+                 ^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_743104/4131186817.py", line 2, in return_RMSE
+    return np.sqrt(np.mean((P - I)**2))
+                           ~~~~~~~^^~
+OverflowError: (34, 'Numerical result out of range')
